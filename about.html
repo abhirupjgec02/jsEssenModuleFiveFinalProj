@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./design.css">
+  <title>Travelbloom... where tour meets life</title>
+  <style>
+    .container {
+        display: flex;
+        gap: 200px; 
+        justify-content: center;
+    }
+
+    .box {
+      width: 120px;
+      height: 40px;
+      color: #0014c3; /* Text color */
+      font-weight: bold;
+      display: inline-block;
+      margin: 0;        /* Remove margin */
+      padding: 0;       /* Remove padding */
+      text-align: center;
+      line-height: 40px; /* Vertically center text */
+      border-radius: 10px; /* Rounded corners (optional) */
+    }
+
+    .boxVal {
+      width: 120px;
+      height: 40px;
+      color: #fffa3f; /* Text color */
+      font-weight: bold;
+      display: inline-block;
+      margin: 0;        /* Remove margin */
+      padding: 0;       /* Remove padding */
+      text-align: center;
+      line-height: 40px; /* Vertically center text */
+      border-radius: 10px; /* Rounded corners (optional) */
+    }
+
+    .red { background-color: #e74c3c; }
+    .blue { background-color: #3498db; }
+    .green { background-color: #2ecc71; }
+    .purple { background-color: #9b59b6; }
+    .lemon {background-color: #f7f9b0;}
+    .transparent {background-color: transparent;}
+  </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="./index.html" id="home">Home</a></li>
+            <li><a href="./about.html" id="contact">About Us</a></li>
+            <li><a href="./contact.html" id="contact">Contact Us</a></li>
+            <li><input type="text" id="searchInput" placeholder="Search"></li>
+            <li><button id='btnSearch'>Search</button></li>
+            <li><button id='btnReset'>Reset</button></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+        Welcome to Travelbloom! We are passionate about creating unforgettable travel experiences. 
+        Our mission is to connect people with the beauty of the world through well-curated tours and adventures.
+        </p>
+    </section>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <div id="contactPersonsDesig" class="container">
+        <div class="box lemon">CEO</div>
+        <div class="box lemon">MD</div>
+        <div class="box lemon">CMO</div>
+    </div>
+    <div id="contactPersonsName" class="container">
+        <div class="boxVal transparent">ABCD</div>
+        <div class="boxVal transparent">EFGH</div>
+        <div class="boxVal transparent">IJKL</div>
+    </div>
+    <div id="office" class="container">
+        <div class="box lemon">Our Office</div>
+    </div>
+    <div id="officeAddr" class="container">
+        <div class="boxVal transparent">L234, ZY Street, WX, Yukveniya - 565884</div>
+    </div>
+</body>
+</html>
